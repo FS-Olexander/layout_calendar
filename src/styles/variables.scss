@@ -1,0 +1,17 @@
+$color: #eee;
+$squeare-size: 100px;
+$border: 1px solid black;
+$gap: 1px;
+$padding: 10px;
+$cols: 7;
+$width: $cols * $squeare-size + 2 * $padding + ($cols - 1) * $gap; // -1 колонка, gep між колонками
+
+$start-days: (
+  mon: 1,
+  tue: 2,
+  wed: 3,
+  thu: 4,
+  fri: 5,
+  sat: 6,
+  sun: 7,
+);
