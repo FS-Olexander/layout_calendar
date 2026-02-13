@@ -14,8 +14,8 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    height: $squeare-size;
-    width: $squeare-size;
+    height: $square-size;
+    width: $square-size;
     background-color: $color;
     border: $border;
     transition: all 0.5s ease;
@@ -47,7 +47,7 @@
 @each $day, $num in $start-days {
   .calendar--start-day-#{$day} {
     .calendar__day:nth-child(1) {
-      margin-left: ($num - 1) * ($squeare-size + $gap);
+      margin-left: ($num - 1) * ($square-size + $gap);
     }
   }
 }
